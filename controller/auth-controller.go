@@ -10,7 +10,6 @@ import (
 
 func Login(c echo.Context) error {
 	res := &model.Response{
-		Status:  "Success",
 		Message: "check name of the code",
 	}
 
