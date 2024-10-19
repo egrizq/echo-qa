@@ -9,8 +9,10 @@ import (
 )
 
 func Login(c echo.Context) error {
+	status := "Success"
+
 	res := &model.Response{
-		Status:  "Success",
+		Status:  status,
 		Message: "check name of the code",
 	}
 
