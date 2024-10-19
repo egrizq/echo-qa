@@ -11,7 +11,7 @@ import (
 func Login(c echo.Context) error {
 	res := &model.Response{
 		Status:  "Success",
-		Message: "Hellow from rizq",
+		Message: "Hellow good morning",
 	}
 
 	return c.JSON(http.StatusOK, res)
