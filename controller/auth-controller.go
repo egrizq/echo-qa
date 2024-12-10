@@ -13,7 +13,7 @@ func Login(c echo.Context) error {
 
 	res := &model.Response{
 		Status:  status,
-		Message: "check name of the code",
+		Message: "hellow world",
 	}
 
 	return c.JSON(http.StatusOK, res)
